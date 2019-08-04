@@ -9,11 +9,10 @@ function driversWithRevenueOver(arr, value) {
 
 //return string of driver name with revenue > value
 function driverNamesWithRevenueOver(arr, value) {
-  let newStr = driversWithRevenueOver(arr, value);
-    return newStr.map((e) => e.name);
+  let newArr = driversWithRevenueOver(arr, value);
+    return newArr.map((e) => e.name);
 }
 
-//accepts an array and an obj and returns object of matches to obj passed into function
 function exactMatch(arr, obj) {
   return arr.filter(function (e) {
     for (const key in obj) {
@@ -23,6 +22,5 @@ function exactMatch(arr, obj) {
 }
 
 function exactMatchToList() {
-  let exactMatch(arr, obj);
-
+  let  exactMatch(arr, obj)
 }
