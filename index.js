@@ -8,14 +8,13 @@ function driversWithRevenueOver(arr, value) {
 }
 
 function driverNamesWithRevenueOver() {
-  
+
 }
 
 function exactMatch() {
-  
+
 }
 
 function exactMatchToList() {
-  
-}
 
+}
