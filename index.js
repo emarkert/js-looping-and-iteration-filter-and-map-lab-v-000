@@ -10,7 +10,7 @@ function driversWithRevenueOver(arr, value) {
 //return string of driver name with revenue > value
 function driverNamesWithRevenueOver(arr, value) {
   return driversWithRevenueOver(arr, value)
-    .map(function(e) => e.name);
+    .map((e) => e.name);
 }
 
 function exactMatch() {
