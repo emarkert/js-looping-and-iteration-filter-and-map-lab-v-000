@@ -21,6 +21,7 @@ function exactMatch(arr, obj) {
   })
 }
 
-function exactMatchToList() {
-
+function exactMatchToList(arr, obj) {
+  let newStr = exactMatch(arr, obj);
+    return newStr.map(e => e.name)
 }
