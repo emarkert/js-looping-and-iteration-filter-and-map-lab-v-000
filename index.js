@@ -9,8 +9,8 @@ function driversWithRevenueOver(arr, value) {
 
 //return string of driver name with revenue > value
 function driverNamesWithRevenueOver(arr, value) {
-  let newArr = driversWithRevenueOver(arr, value);
-    return newArr.map(function(e) => e.name);
+  return driversWithRevenueOver(arr, value)
+    .map(function(e) => e.name);
 }
 
 function exactMatch() {
